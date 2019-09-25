@@ -271,6 +271,10 @@ However, selecting the `default` configuration yields the same result as before.
 Only the `runtime` configuration now contains more information which corresponds to the _runtimeElements_ variant of a Java library.
 In general, users are advised to migrate from `ivy.xml` to the new Gradle Module Metadata format.
 
+==== New Tooling API progress event
+
+In Gradle 6.0 we introduced a new progress event (link:{javadocPath}/org/gradle/tooling/events/test/TestOutputEvent.html[org.gradle.tooling.events.test.TestOutputEvent]) to expose the task outputs. This new event breaks the convention of having a `StartEvent`-`FinisEvent` pair to express progress. Instead `TaskOutputEvent` is a simple `ProgressEvent`.
+
 ==== Miscellaneous
 
 The following breaking changes will appear as deprecation warnings with Gradle 5.6:
