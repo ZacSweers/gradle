@@ -1,5 +1,6 @@
 = Learning the Basics
 include::core_dependency_management.adoc[leveloffset=+1]
+include::dependency_management_terminology.adoc[leveloffset=+1]
 include::declaring_repositories.adoc[leveloffset=+1]
 include::declaring_dependencies.adoc[leveloffset=+1]
 include::library_vs_application.adoc[leveloffset=+1]
@@ -37,8 +38,3 @@ include::dependency_modification_apis.adoc[leveloffset=+1]
 include::variant_aware_plugins.adoc[leveloffset=+1]
 include::artifact_transforms.adoc[leveloffset=+1]
 include::resolution_result_api.adoc[leveloffset=+1]
-
-= Dependency Management Terminology
-include::dependency_management_terminology.adoc[leveloffset=+1]
-
-
